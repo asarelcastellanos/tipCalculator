@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var totalLabel: UILabel!
     
+    @IBOutlet var window: UIView!
+    
+    @IBOutlet weak var modeSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,4 +40,12 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
     }
     
+    // added dark mode
+    @IBAction func switchColor(_ sender: Any) {
+        if(modeSwitch.isOn) {
+            window.overrideUserInterfaceStyle = .dark
+        } else {
+            window?.overrideUserInterfaceStyle = .light
+        }
+    }
 }
