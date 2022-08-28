@@ -16,6 +16,7 @@
 		68056CB028B5A8C50091F41E /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68056CAF28B5A8C50091F41E /* calculatorTests.swift */; };
 		68056CBA28B5A8C50091F41E /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68056CB928B5A8C50091F41E /* calculatorUITests.swift */; };
 		68056CBC28B5A8C50091F41E /* calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68056CBB28B5A8C50091F41E /* calculatorUITestsLaunchTests.swift */; };
+		68E4CA6E28BAB093001FB499 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E4CA6D28BAB093001FB499 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		68056CB528B5A8C50091F41E /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68056CB928B5A8C50091F41E /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		68056CBB28B5A8C50091F41E /* calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68E4CA6D28BAB093001FB499 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				68056C9A28B5A8C20091F41E /* SceneDelegate.swift */,
 				68056C9C28B5A8C20091F41E /* ViewController.swift */,
 				68056C9E28B5A8C20091F41E /* Main.storyboard */,
+				68E4CA6D28BAB093001FB499 /* SettingsViewController.swift */,
 				68056CA128B5A8C50091F41E /* Assets.xcassets */,
 				68056CA328B5A8C50091F41E /* LaunchScreen.storyboard */,
 				68056CA628B5A8C50091F41E /* Info.plist */,
@@ -261,6 +264,7 @@
 				68056C9D28B5A8C20091F41E /* ViewController.swift in Sources */,
 				68056C9928B5A8C20091F41E /* AppDelegate.swift in Sources */,
 				68056C9B28B5A8C20091F41E /* SceneDelegate.swift in Sources */,
+				68E4CA6E28BAB093001FB499 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
